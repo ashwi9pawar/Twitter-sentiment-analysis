@@ -2,12 +2,11 @@
 Tweets from the account of Mr Bill Gates are extracted and sentimental analaysis is performed on them after text cleaning.
 
 ## Extracting information from Twitter:  
-Extracting information from Twitter using Tweepy on which we need to perform Sentiment Analysis. Using the consumer keys and access keys we can extract the tweets from twitter. 
-These consumer_key,consumer_secret,access_key, access_secret are generated using your own twitter api account with a request. Once these keys are generated, by using tweepy
-and these keys we can extract tweets from twitter. Now store all the extracted tweets as a list. 
+Tweets are extracted from Twitter using Tweepy. Using the consumer keys and access keys the tweets are extracted from twitter. 
+These consumer_key,consumer_secret,access_key, access_secret can be generated using your own twitter api account with a request. Once these keys are generated, they are used along with tweepy to extract tweets from twitter. Now all the extracted tweets are stored as a list. 
 
 ## Text Cleaning:  
-Since we have got all text data in the form of a dataframe, now we will perform Text Cleaning on data such as    
+Since all text data is in the form of a dataframe, Text Cleaning on data is performed such as    
 - Removing all the http links from the tweets   
 - Removing all the puntuations, numbers and lowering the case of  letters   
 - Splitting the paragraph into words   
@@ -15,7 +14,8 @@ Since we have got all text data in the form of a dataframe, now we will perform 
 - Removing all the stop words (that are given) from the tweets   
 - Joining all the tweet words into one paragraph 
 
-## Sentiment Analysis:  Once we get all the data interms of paragraph:    
+## Sentiment Analysis: 
+Once all the data in collected terms of paragraph:    
 - Import the positive words   
 - Import the negative words   
 - Remove the words from paragraph which are not present in the positive words and join  remaining words as paragraph - These are positive tweets    
