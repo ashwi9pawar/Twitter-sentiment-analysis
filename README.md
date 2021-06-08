@@ -15,7 +15,7 @@ Since all text data is in the form of a dataframe, Text Cleaning on data is perf
 - Joining all the tweet words into one paragraph 
 
 ## Sentiment Analysis: 
-Once all the data in collected terms of paragraph:    
+Once all the data is collected in terms of paragraph:    
 - Import the positive words   
 - Import the negative words   
 - Remove the words from paragraph which are not present in the positive words and join  remaining words as paragraph - These are positive tweets    
